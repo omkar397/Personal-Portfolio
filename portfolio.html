@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Interactive Portfolio</title>
+    <link rel="stylesheet" href="po.css">
+</head>
+<body>
+    <header>
+        <h1>Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="Portfolio.html">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+				<li><a href="my.html">My Skills</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm a web developer with a passion for creating beautiful and functional websites.</p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project" onclick="openModal('Project 1', 'Description of project 1.')">
+            <h3>Project 1</h3>
+            <p>Click for details</p>
+        </div>
+        <div class="project" onclick="openModal('Project 2', 'Description of project 2.')">
+            <h3>Project 2</h3>
+            <p>Click for details</p>
+        </div>
+        <div class="project" onclick="openModal('Project 3', 'Description of project 3.')">
+            <h3>Project 3</h3>
+            <p>Click for details</p>
+        </div>
+    </section>
+
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; My Interactive Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

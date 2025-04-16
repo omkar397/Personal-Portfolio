@@ -1,0 +1,154 @@
+body {
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Soft light background */
+}
+
+header {
+    background: #FF6F61; /* Coral color for a warm and inviting feel */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+	font-family:Rockwell;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+	
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    background: #fff; /* White background for sections */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h2 {
+    color: #6C63FF; /* Matching soft purple for headings */
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    background: #e0e0e0; /* Light gray for the background of the progress bar */
+    border-radius: 5px;
+    overflow: hidden;
+    height: 20px;
+}
+
+.progress {
+    background: #6C63FF; /* Soft purple for progress */
+    height: 100%;
+    color: white;
+    text-align: center;
+    line-height: 20px; /* Center text vertically */
+    transition: width 0.5s; /* Smooth transition */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #FF6F61; /* Coral color for footer */
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Soft light background */
+}
+
+header {
+    background: #FF6F61; /* Coral color for a warm and inviting feel */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    background: #fff; /* White background for sections */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h2 {
+	font-family:Rockwell;
+    color: #6C63FF; /* Matching soft purple for headings */
+}
+
+.skill {
+	font-family:Rockwell;
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    background: #e0e0e0; /* Light gray for the background of the progress bar */
+    border-radius: 5px;
+    overflow: hidden;
+    height: 20px;
+}
+
+.progress {
+	font-family:Rockwell;
+    background: #6C63FF; /* Soft purple for progress */
+    height: 100%;
+    color: white;
+    text-align: center;
+    line-height: 20px; /* Center text vertically */
+    transition: width 0.5s; /* Smooth transition */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #FF6F61; /* Coral color for footer */
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+h1
+{
+	text-align:Center;
+	 font-family:Rockwell, sans-serif;
+}
